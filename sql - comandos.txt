@@ -1,0 +1,24 @@
+1. Criar o banco de dados
+
+Abra o phpMyAdmin (http://localhost/phpmyadmin) e execute: 
+
+CREATE DATABASE imc_db;
+
+USE imc_db;
+
+CREATE TABLE classificacao_imc (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    faixa VARCHAR(20),
+    classificacao VARCHAR(100)
+);
+
+INSERT INTO classificacao_imc (faixa, classificacao) VALUES
+('< 16', 'Magreza Grau III'),
+('16 a 16,9', 'Magreza Grau II'),
+('17 a 18,4', 'Magreza Grau I'),
+('18,5 a 24,9', 'Eutrofia'),
+('25 a 29,9', 'Pré-Obesidade'),
+('30 a 34,9', 'Obesidade Moderada (Grau I)'),
+('35 a 39,9', 'Obesidade Severa (Grau II)'),
+('> 40', 'Obesidade Muito Severa (Grau III)');
+

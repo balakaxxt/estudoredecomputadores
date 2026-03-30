@@ -1,0 +1,97 @@
+RELATÓRIO – SISTEMA DE CLASSIFICAÇÃO DE IMC (PHP + MYSQL)
+
+👨‍💻 Objetivo:
+Criar um sistema web simples que mostra uma tabela de IMC (Índice de Massa Corporal) vinda do banco de dados e classifica o valor digitado usando PHP.
+
+---
+
+📁 ARQUIVOS CRIADOS:
+
+1. imc_bd.php
+   👉 Arquivo principal do sistema (fica dentro da pasta htdocs)
+
+2. Banco de dados: imc_db
+   👉 Criado no phpMyAdmin
+
+3. Tabela: classificacao_imc
+   👉 Guarda os dados de classificação do IMC
+
+---
+
+🧠 EXPLICAÇÃO SIMPLES (COMO SE FOSSE PRA UM JOVEM DE 15 ANOS):
+
+Imagina que você está criando um site que mostra se uma pessoa está magra, normal ou acima do peso.
+
+Para isso, usamos 2 coisas:
+
+1️⃣ BANCO DE DADOS (MySQL)
+É como um caderno onde guardamos informações.
+Nesse caso, guardamos uma tabela com:
+
+* Faixa de IMC
+* Classificação (ex: Magreza, Obesidade)
+
+---
+
+2️⃣ PHP (O CÉREBRO DO SITE)
+O PHP é o que faz o site “pensar”.
+
+Ele:
+
+* Pega os dados do banco
+* Mostra na tela (em forma de tabela)
+* Recebe um número digitado pelo usuário
+* Usa IF / ELSE para decidir a classificação
+
+---
+
+💻 COMO O SISTEMA FUNCIONA:
+
+1. O usuário entra no site:
+   http://localhost/imc_bd.php
+
+2. O sistema mostra a tabela de IMC (vinda do banco)
+
+3. O usuário digita um valor de IMC
+
+4. O PHP verifica com IF / ELSE:
+   Exemplo:
+
+   * Se for menor que 16 → Magreza Grau III
+   * Se for entre 18.5 e 24.9 → Normal
+   * E assim por diante...
+
+5. O sistema mostra o resultado na tela
+
+---
+
+⚙️ TECNOLOGIAS USADAS:
+
+* XAMPP (Apache + MySQL)
+* PHP
+* HTML
+* phpMyAdmin
+
+---
+
+📌 CONCLUSÃO:
+
+Esse sistema é importante porque ensina:
+
+* Como conectar PHP com banco de dados
+* Como usar IF / ELSE
+* Como criar um site simples
+
+Mesmo sendo simples, já é um passo muito importante para aprender programação web 🚀
+
+---
+
+✅ RESULTADO FINAL:
+Um site funcionando que:
+✔ Mostra tabela do IMC
+✔ Usa banco de dados
+✔ Classifica valores automaticamente
+
+---
+
+FIM DO RELATÓRIO
